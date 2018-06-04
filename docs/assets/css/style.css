@@ -13,6 +13,74 @@
 /*--- 10. CONTACT SECTION ---*/
 /*--- 11. MEDIA QUERIES FOR RESPONSIVE DESIGN ---*/
 /*--------------------------------*/
+.doc-icon-wrapper {
+  
+  position: relative;
+  width: 36px;
+  height: 46px;
+  margin: 0 auto;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.doc-icon-wrapper:hover {
+  -moz-transform: translate(0, -5px);
+  -ms-transform: translate(0, -5px);
+  -webkit-transform: translate(0, -5px);
+  transform: translate(0, -5px);
+}
+.doc-icon-wrapper .doc-icon-header {
+  position: absolute;
+  height: 10px;
+  width: 100%;
+}
+.doc-icon-wrapper .doc-icon-header:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  left: 0;
+  background-color: #007bff;
+  right: 10px;
+  content: '';
+}
+.doc-icon-wrapper .doc-icon-header:after {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 0 0 10px;
+  border-color: transparent transparent transparent #66b0ff;
+  top: 0;
+  right: 0;
+  content: '';
+}
+.doc-icon-wrapper .doc-icon-content {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 0;
+  background-color: #007bff;
+  color: #fff;
+  right: 0;
+}
+.doc-icon-wrapper .doc-icon-content > span {
+  font-size: 13px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 3px;
+  left: 5px;
+}
+.item {
+  
+  width: 25%;
+  padding: 40px 0px;
+  text-align: center;
+}
+
+
 /*--- 01. GENERAL SETTINGS ---*/
 ::-webkit-scrollbar {
   width: 6px;
