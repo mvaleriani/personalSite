@@ -230,6 +230,7 @@ ul {
   height: 100%;
   position: fixed;
   background-color: #f7f7f7;
+
 }
 .loader {
   width: 80px;
@@ -246,6 +247,7 @@ ul {
   transition-duration: 2s;
 }
 .loader img {
+  border-radius: 7px;
   width: 80px;
   height: 80px;
 }
@@ -335,6 +337,7 @@ ul {
   display: inline-block;
   vertical-align: middle;
   box-shadow: 10px 10px 8px #888888;
+  border-radius: 7px;
 }
 .header-menu:before {
   height: 100%;
