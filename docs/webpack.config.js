@@ -23,7 +23,7 @@ plugins = plugins.concat(
 
 module.exports = {
     context: __dirname,
-    entry: './PersonalSite.jsx',
+    entry: './components/PersonalSite.jsx',
     output: {
         path: path.resolve(__dirname),
         filename: 'bundle.js'
