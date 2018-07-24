@@ -36,7 +36,7 @@
             }
         },
         "size": {
-            "value": 1,
+            "value": 4,
             "random": true,
             "anim": {
                 "enable": false,
@@ -95,7 +95,7 @@
                 "speed": 3
             },
             "repulse": {
-                "distance": 3,
+                "distance": 30,
                 "duration": 0.4
             },
             "push": {
