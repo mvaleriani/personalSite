@@ -12,7 +12,12 @@ class AboutPanel extends React.Component {
     render() {
         return (
             <div id='react-about-panel'>
-                <div id="particles-js"></div>
+                {/* <div id="profile-img">
+                    <img id="inside-img" src="https://mdbootstrap.com/img/Photos/Others/placeholder-avatar.jpg" alt=""/>
+                </div> */}
+                <div id="particles-js">
+                    <img id="inside-img" src="https://mdbootstrap.com/img/Photos/Others/placeholder-avatar.jpg" alt="" />
+                </div>
 
                 <script src="particles.js"></script>
             </div>
