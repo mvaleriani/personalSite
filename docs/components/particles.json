@@ -36,11 +36,11 @@
             }
         },
         "size": {
-            "value": 10,
+            "value": 1,
             "random": true,
             "anim": {
                 "enable": false,
-                "speed": 80,
+                "speed": 40,
                 "size_min": 0.1,
                 "sync": false
             }
@@ -89,7 +89,7 @@
             },
             "bubble": {
                 "distance": 800,
-                "size": 80,
+                "size": 40,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
