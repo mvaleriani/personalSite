@@ -4,7 +4,7 @@
             "value": 80,
             "density": {
                 "enable": true,
-                "value_area": 500
+                "value_area": 800
             }
         },
         "color": {
@@ -21,7 +21,7 @@
             },
             "image": {
                 "src": "img/github.svg",
-                "width": 20,
+                "width": 50,
                 "height": 1
             }
         },
@@ -40,7 +40,7 @@
             "random": true,
             "anim": {
                 "enable": false,
-                "speed": 40,
+                "speed": 80,
                 "size_min": 0.1,
                 "sync": false
             }
@@ -71,31 +71,31 @@
         "detect_on": "canvas",
         "events": {
             "onhover": {
-                "enable": true,
+                "enable": false,
                 "mode": "repulse"
             },
             "onclick": {
-                "enable": false,
+                "enable": true,
                 "mode": "push"
             },
             "resize": true
         },
         "modes": {
             "grab": {
-                "distance": 8,
+                "distance": 800,
                 "line_linked": {
                     "opacity": 1
                 }
             },
             "bubble": {
-                "distance": 4,
-                "size": 10,
+                "distance": 800,
+                "size": 80,
                 "duration": 2,
                 "opacity": 0.8,
                 "speed": 3
             },
             "repulse": {
-                "distance": 300,
+                "distance": 400,
                 "duration": 0.4
             },
             "push": {
