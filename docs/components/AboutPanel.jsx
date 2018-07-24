@@ -4,7 +4,7 @@ import load from 'particles.js'
 class AboutPanel extends React.Component {
     
     componentDidMount(){
-        particlesJS.load('particles-js', './particles.json', function () {
+        particlesJS.load('particles-js', 'https://raw.githubusercontent.com/mvaleriani/personalSite/master/docs/components/particles.json', function () {
             console.log('callback - particles.js config loaded');
         });
     }
