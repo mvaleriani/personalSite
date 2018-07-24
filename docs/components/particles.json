@@ -4,7 +4,7 @@
             "value": 80,
             "density": {
                 "enable": true,
-                "value_area": 800
+                "value_area": 500
             }
         },
         "color": {
@@ -88,7 +88,7 @@
                 }
             },
             "bubble": {
-                "distance": 800,
+                "distance": 4,
                 "size": 40,
                 "duration": 2,
                 "opacity": 0.8,
