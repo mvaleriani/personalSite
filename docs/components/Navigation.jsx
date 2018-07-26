@@ -10,7 +10,7 @@ class Navigation extends React.Component{
                 </div>
                 <nav className="nav-menu">
                     <div className="header-menu">
-                        <a className="menu-logo" href=""><img src="assets/images/personalIcon.png" alt="logo"/></a>
+                        <a className="menu-logo" href="#home"><img src="assets/images/personalIcon.png" alt="logo"/></a>
                     </div>
                         <ul className="menu-text clk">
                             <li><a href="#home">Home</a></li>
