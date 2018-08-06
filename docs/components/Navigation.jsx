@@ -1,6 +1,10 @@
 import React from 'react';
 
 class Navigation extends React.Component{
+    constructor(){
+        super();
+    }
+
     render(){
         return(
             <div className="col-lg-2 pd-left">
