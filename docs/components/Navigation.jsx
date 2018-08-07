@@ -3,6 +3,7 @@ import React from 'react';
 class Navigation extends React.Component{
     constructor(){
         super();
+        let opts = [];
     }
 
     render(){

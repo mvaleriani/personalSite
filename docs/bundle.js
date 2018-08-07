@@ -20239,7 +20239,10 @@ var Navigation = function (_React$Component) {
     function Navigation() {
         _classCallCheck(this, Navigation);
 
-        return _possibleConstructorReturn(this, (Navigation.__proto__ || Object.getPrototypeOf(Navigation)).call(this));
+        var _this = _possibleConstructorReturn(this, (Navigation.__proto__ || Object.getPrototypeOf(Navigation)).call(this));
+
+        var opts = [];
+        return _this;
     }
 
     _createClass(Navigation, [{
