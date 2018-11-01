@@ -29,6 +29,7 @@
     
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <!-- Fixed bundle -->
+    <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.1.js" ></script>
     <script type="text/javascript" src='./bundle.js'></script>
 </head>
 
@@ -84,8 +85,8 @@
     <div class="parallax-bg" style="background-image:url(https://i.imgur.com/glqKuG1.jpg)" data-swiper-parallax="-23%"></div>
     <div class="swiper-wrapper">
       <div class="swiper-slide">
-        <div class="title" data-swiper-parallax="-300">Michael Valeriani</div>
-        <div class="subtitle" data-swiper-parallax="-200">I'm Web Developer & designer</div>
+      <div class="title" data-swiper-parallax="-300">Michael Valeriani</div>
+        <div class="subtitle" data-swiper-parallax="-200">Software Engineer</div>
         <div class="text" data-swiper-parallax="-100">
           <p>Sed lectus est, sollicitudin at consectetur non, fringilla at dolor. In hac habitasse platea dictumst.Proin et euismod ipsum. In volutpat tempus velit sed laoreet.In hac habitasse platea dictumst.Proin et euismod ipsum. In volutpat tempus velit sed laoreet.</p>
           <a class="button" href="#portfolio">View portfolio</a>
@@ -143,7 +144,7 @@
                   <p> <span> Email </span> - michaelvaleriani@gmail.com</p>
                 </li>
                 <li>
-                  <p> <span> LinkedIn</span> - <a href="https://www.linkedin.com/in/michael-valeriani-4129b6161/">linkedin.com/in/michael-valeriani-4129b6161</a> </p>
+                  <p> <span> LinkedIn</span> - <a href="https://www.linkedin.com/in/michael-valeriani">linkedin.com/in/michael-valeriani</a> </p>
                 </li>
                 <li>
                   <p> <span> Github</span> -  <a href="https://github.com/mvaleriani/">github.com/mvaleriani</a>  </p>
@@ -157,7 +158,12 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit illum dolores fugit ut ratione quidem rem eveniet id, sapiente facilis maxime suscipit nostrum. Alias, voluptatum ipsa unde nemo magni atque!</p>
               <!-- progress bar -->
               <div id="skills">
-                <div class="skillbar-title"><span>React</span></div>
+                <div style='display: flex; justify-content: center; align-items: center; background: cadetblue'>HI</div>
+                <div style='display: flex; justify-content: center; align-items: center; background:burlywood'>YO</div>
+                <div style='display: flex; justify-content: center; align-items: center; background: rgb(71, 182, 7)'>Hey</div>
+                <div style='display: flex; justify-content: center; align-items: center; background: rgb(179, 69, 36)'>Howdy</div>
+                <div style='display: flex; justify-content: center; align-items: center; background: rgb(114, 95, 160)'>Sup</div>
+                <!-- <div class="skillbar-title"><span>React</span></div>
                 <div class="skillbar clearfix " data-percent="55%">
                   <div class="skillbar-bar"></div>
                   <div class="skill-bar-percent">55%</div>
@@ -186,7 +192,7 @@
                 <div class="skillbar clearfix" data-percent="55%">
                   <div class="skillbar-bar"></div>
                   <div class="skill-bar-percent">55%</div>
-                </div>
+                </div> -->
 
             </div>   <!-- /#skill -->
           </div> <!-- /.skill  -->  
@@ -263,10 +269,7 @@
             <a class"port-type" href="#" data-group="web-development">Web Development</a>
           </li>
           <li>
-            <a class"port-type" href="#" data-group="ui">Machine Learning</a>
-          </li>
-          <li>
-            <a class"port-type" href="#" data-group="photography">Photography</a>
+            <a class"port-type" href="#" data-group="machine-learning">Machine Learning</a>
           </li>
           <li>
             <a class"port-type" href="#" data-group="digital-sculpting">Digital Sculpting</a>
@@ -274,65 +277,63 @@
         </ul><!-- /.filter -->
           <!-- Grid portfolio -->
           <div id="grid" class="row no-gutters">
+            
+            <div class="item col-lg-4" data-groups='["web-development"]'>
+              <a href="https://raw.githubusercontent.com/mvaleriani/personalSite/master/docs/assets/images/portfolio/dialoq1.png"
+                class="with-caption image-link" title="Dialoq">
+                <figure class="effect-sadie">
+                  <a href="http://dialoq.io/#/" target="_blank" style="z-index: 10; width: 100%; height: 100%;">
+                    <img class="responsive-img" src="./assets/images/portfolio/dialoqDemo.gif"
+                      alt="">
+                    <figcaption>
+                      <i class="fa ion-link" aria-hidden="true"></i>
+                      <p>A dynamic chat-based application, inspired by Slack and Discord.</p>
+                    </figcaption>
+                  </a>
+                </figure>
+              </a>
+            </div>
+          
 
             <div class="item col-lg-4" data-groups='["web-development"]'>
               <a href="https://raw.githubusercontent.com/mvaleriani/personalSite/master/docs/assets/images/portfolio/dialoq1.png"
                 class="with-caption image-link" title="Dialoq">
                 <figure class="effect-sadie">
-                  <img class="responsive-img" src="https://raw.githubusercontent.com/mvaleriani/personalSite/master/docs/assets/images/portfolio/dialoq.gif"
-                    alt="">
-                  <figcaption>
-                    <i class="fa ion-ios-plus-outline" aria-hidden="true"></i>
-                    <p>A dynamic chat-based application, inspired by Slack and Discord.</p>
-                  </figcaption>
+                  <a href="https://mvaleriani.github.io/GIFinity/" target="_blank" style="z-index: 10; width: 100%; height: 100%;">
+                    <img class="responsive-img" src="./assets/images/portfolio/gifinityDemo.gif" alt="">
+                    <figcaption>
+                      <i class="fa ion-link" aria-hidden="true"></i>
+                      <p>An infinite scrolling GIF viewer via the Giphy API</p>
+                    </figcaption>
+                  </a>
                 </figure>
               </a>
             </div>
 
-              <div class="item col-lg-4"  data-groups='["ui"]'>
+              <div class="item col-lg-4"  data-groups='["machine-learning"]'>
                 <a href="../Static_image/assets/images/portfolio/big-img/project-big-1.jpg" class="with-caption image-link" title="Project Title">
                   <figure class="effect-sadie">
-                    <img class="responsive-img" src="assets/images/portfolio/project-1.jpg" alt="">
-                    <figcaption>
-                      <i class="fa ion-ios-plus-outline" aria-hidden="true"></i> 
-                      <p>Praesent convallis, turpis et ultrices tincidunt, orci nisi mollis dolor,<br>non congue erat elit ut purus.</p>
-                    </figcaption> 
+                    <a href="http://shallow-ai.com" target="_blank" style="z-index: 10; width: 100%; height: 100%;">
+                      <img class="responsive-img" src="assets/images/portfolio/shallowDemo.gif" alt="">
+                      <figcaption>
+                        <i class="fa ion-link" aria-hidden="true"></i> 
+                        <p>A machine learning program designed to detect Deepfake video alterations.</p>
+                      </figcaption> 
+                    </a>
                   </figure>
                 </a>
               </div>
 
-              <div class="item col-lg-4" data-groups='["photography"]'>
-                <a href="../Static_image/assets/images/portfolio/big-img/project-big-2.jpg" class="with-caption image-link" title="Project Title">
-                  <figure class="effect-sadie">
-                    <img class="responsive-img" src="assets/images/portfolio/project-2.jpg" alt="">
-                    <figcaption>
-                      <i class="fa ion-ios-plus-outline" aria-hidden="true"></i>
-                      <p>Praesent convallis, turpis et ultrices tincidunt, orci nisi mollis dolor,<br> non congue erat elit ut purus.</p>
-                    </figcaption> 
-                  </figure>
-                </a>
-              </div>
-
-              <div class="item col-lg-4"  data-groups='["photography"]'>
-                <a href="../Static_image/assets/images/portfolio/big-img/project-big-3.jpg" class="with-caption image-link" title="Project Title">
-                  <figure class="effect-sadie">
-                   <img class="responsive-img" src="assets/images/portfolio/project-3.jpg" alt="">
-                    <figcaption>
-                      <i class="fa ion-ios-plus-outline" aria-hidden="true"></i>
-                      <p>Praesent convallis, turpis et ultrices tincidunt, orci nisi mollis dolor,<br>non congue erat elit ut purus.</p>
-                    </figcaption> 
-                  </figure>
-                </a>
-              </div>
-
-              <div class="item col-lg-4"   data-groups='["digital-sculpting"]'>
+              <div class="item col-lg-4"   data-groups='["web-development"]'>
                 <a href="../Static_image/assets/images/portfolio/big-img/project-big-4.jpg" class="with-caption image-link" title="Project Title">
                   <figure class="effect-sadie">
-                    <img class="responsive-img" src="assets/images/portfolio/project-4.jpg" alt="">
-                    <figcaption>
-                      <i class="fa ion-ios-plus-outline" aria-hidden="true"></i>
-                      <p>Praesent convallis, turpis et ultrices tincidunt, orci nisi mollis dolor,<br>non congue erat elit ut purus.</p>
-                    </figcaption> 
+                    <a href="https://mvaleriani.github.io/Game-of-Voxels-JS/" target="_blank" style="z-index: 10; width: 100%; height: 100%;">
+                      <img class="responsive-img" src="assets/images/portfolio/voxelDemo.gif" alt="">
+                      <figcaption>
+                        <i class="fa ion-link" aria-hidden="true"></i>
+                        <p>An isometric representation of Conway's Game. Fully interactive</p>
+                      </figcaption> 
+                    </a>
                   </figure>
                 </a>
               </div>
@@ -340,11 +341,13 @@
               <div class="item col-lg-4"   data-groups='["digital-sculpting"]'>
                 <a href="../Static_image/assets/images/portfolio/big-img/project-big-5.jpg" class="with-caption image-link" title="Project Title">
                   <figure class="effect-sadie">
-                    <img class="responsive-img" src="assets/images/portfolio/project-5.jpg" alt="">
-                    <figcaption>
-                      <i class="fa ion-ios-plus-outline" aria-hidden="true"></i>
-                      <p>Praesent convallis, turpis et ultrices tincidunt, orci nisi mollis dolor,<br>non congue erat elit ut purus.</p>
-                    </figcaption> 
+                    <a href="https://sketchfab.com/models/fcda9dc19b5e44dbb3266f2480d789b4" target="_blank" style="z-index: 10; width: 100%; height: 100%;">
+                      <img class="responsive-img" src="assets/images/portfolio/doomhammer.gif" alt="">
+                      <figcaption>
+                        <i class="fa ion-link" aria-hidden="true"></i>
+                        <p>A replica hammer sculpted in virtual reality utilizing Medium</p>
+                      </figcaption> 
+                    </a>
                   </figure>
                 </a>
               </div>

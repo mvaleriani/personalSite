@@ -25,10 +25,19 @@ class Navigation extends React.Component{
                             <li><a href="#contact">Contact</a></li>
                         </ul>
                         <ul className="social-links">
-                            <li><a href=""><i className="fa ion-social-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i className="fa fa-dribbble" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href=""><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <div>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/michael-valeriani/" target="_blank"><img src="./assets/images/linkedinLogo.svg" style={{ width: '30px' }} /></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/mvaleriani/" target="_blank"><img src="./assets/images/githubLogo.svg" style={{ width: '32px' }} /></a>
+                                </li>
+                            </div>
+                            <div style={{width: '100%', display: 'flex', justifyContent: 'center'}}>
+                                <li style={{marginTop: '2px'}}>
+                                    <a href="https://codepen.io/mvaleriani/" target="_blank"><img src="./assets/images/codepenLogo.svg" style={{ width: '32px' }} /></a>
+                                </li>
+                            </div>
                         </ul>
                 </nav>
             </div>

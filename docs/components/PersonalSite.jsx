@@ -11,11 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
             <Navigation/>
         </div>
         , root);
-});
 
-document.addEventListener('DOMContentLoaded', () => {
     const aboutPanel = document.getElementById('about-panel');
     ReactDOM.render(
-        <AboutPanel/>
+        <AboutPanel />
         , aboutPanel);
 });

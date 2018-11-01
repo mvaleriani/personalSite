@@ -854,9 +854,7 @@ document.addEventListener('DOMContentLoaded', function () {
         null,
         _react2.default.createElement(_Navigation2.default, null)
     ), root);
-});
 
-document.addEventListener('DOMContentLoaded', function () {
     var aboutPanel = document.getElementById('about-panel');
     _reactDom2.default.render(_react2.default.createElement(_AboutPanel2.default, null), aboutPanel);
 });
@@ -20326,39 +20324,38 @@ var Navigation = function (_React$Component) {
                         "ul",
                         { className: "social-links" },
                         _react2.default.createElement(
-                            "li",
+                            "div",
                             null,
                             _react2.default.createElement(
-                                "a",
-                                { href: "" },
-                                _react2.default.createElement("i", { className: "fa ion-social-twitter", "aria-hidden": "true" })
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "https://www.linkedin.com/in/michael-valeriani/", target: "_blank" },
+                                    _react2.default.createElement("img", { src: "./assets/images/linkedinLogo.svg", style: { width: '30px' } })
+                                )
+                            ),
+                            _react2.default.createElement(
+                                "li",
+                                null,
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "https://github.com/mvaleriani/", target: "_blank" },
+                                    _react2.default.createElement("img", { src: "./assets/images/githubLogo.svg", style: { width: '32px' } })
+                                )
                             )
                         ),
                         _react2.default.createElement(
-                            "li",
-                            null,
+                            "div",
+                            { style: { width: '100%', display: 'flex', justifyContent: 'center' } },
                             _react2.default.createElement(
-                                "a",
-                                { href: "" },
-                                _react2.default.createElement("i", { className: "fa fa-dribbble", "aria-hidden": "true" })
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "" },
-                                _react2.default.createElement("i", { className: "fa fa-facebook", "aria-hidden": "true" })
-                            )
-                        ),
-                        _react2.default.createElement(
-                            "li",
-                            null,
-                            _react2.default.createElement(
-                                "a",
-                                { href: "" },
-                                _react2.default.createElement("i", { className: "fa fa-instagram", "aria-hidden": "true" })
+                                "li",
+                                { style: { marginTop: '2px' } },
+                                _react2.default.createElement(
+                                    "a",
+                                    { href: "https://codepen.io/mvaleriani/", target: "_blank" },
+                                    _react2.default.createElement("img", { src: "./assets/images/codepenLogo.svg", style: { width: '32px' } })
+                                )
                             )
                         )
                     )
@@ -20426,7 +20423,13 @@ var AboutPanel = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { id: 'particles-js' },
-                    _react2.default.createElement('img', { id: 'inside-img', src: 'https://mdbootstrap.com/img/Photos/Others/placeholder-avatar.jpg', alt: '' })
+                    _react2.default.createElement(
+                        'div',
+                        { style: { width: '50%', height: 'fit-content', marginTop: '50px' } },
+                        ' ',
+                        _react2.default.createElement('img', { style: { width: '100%', borderRadius: '3px' }, src: './assets/images/about/mobile-profile.jpg', alt: '' }),
+                        ' '
+                    )
                 ),
                 _react2.default.createElement('script', { src: 'particles.js' })
             );

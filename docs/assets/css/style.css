@@ -567,20 +567,23 @@ ul {
   font-size: 36px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 1px 3px grey;
 }
 .swiper-slide .subtitle {
   max-width: 450px;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 22px;
+  text-shadow: 0px 1px 3px grey;
 }
 .swiper-slide .text {
   margin-top: 24px;
   max-width: 450px;
+  text-shadow: 0px 1px 3px grey;
 }
 .swiper-slide p {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
 }
 .home-title-text {
@@ -691,6 +694,11 @@ img.mobile-profile-img {
 }
 #skills {
   margin-top: 48px;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
+  grid-gap: 14px;
+  /* padding: 12px; */
+  height: 350px;
 }
 .progressText {
   font-weight: 600;
