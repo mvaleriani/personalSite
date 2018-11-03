@@ -698,7 +698,7 @@ img.mobile-profile-img {
   grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr;
   grid-gap: 14px;
   /* padding: 12px; */
-  height: 300px;
+  min-height: max-content;
 }
 .progressText {
   font-weight: 600;
@@ -1199,7 +1199,7 @@ div #ora{
     display: grid;
     grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
     grid-gap: 14px;
-    height: 600px;
+    min-height: max-content;
   }
 }
 @media (max-width: 767px) {
@@ -1291,7 +1291,7 @@ div #ora{
     display: grid;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
     grid-gap: 14px;
-    height: 650px;
+    /* height: 650px; */
   }
   .copyright {
     display: none;
