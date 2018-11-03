@@ -1182,6 +1182,7 @@ div #ora{
   width: 100%;
 }
 
+
 /* .port-type{
   font-size: 30px;
 } */
@@ -1192,6 +1193,13 @@ div #ora{
   /* Resume-page */
   .resume-inner {
     margin-left: 15px;
+  }
+  #skills {
+    margin-top: 48px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    grid-gap: 14px;
+    height: 600px;
   }
 }
 @media (max-width: 767px) {
@@ -1223,6 +1231,7 @@ div #ora{
   .about-me h4 {
     margin-top: 48px;
   }
+  
   img.mobile-profile-img {
     margin-top: 48px;
     display: block;
@@ -1277,6 +1286,13 @@ div #ora{
   }
 }
 @media (max-width: 575px) {
+  #skills {
+    margin-top: 48px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
+    grid-gap: 14px;
+    height: 650px;
+  }
   .copyright {
     display: none;
   }
