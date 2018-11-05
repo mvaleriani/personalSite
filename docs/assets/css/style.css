@@ -965,6 +965,40 @@ figure.effect-sadie:hover i {
   transform: translate3d(0, 0, 0);
 }
 /*--- 09. RESUME SECTION ---*/
+#download-resume{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 16px;
+  border: 2px #33C1B3;
+  border-style: dotted;
+  width: 50%;
+  padding: 10px;
+  transition: all .2s ease;
+  margin-top: 50px;
+  
+
+  color: #33C1B3;
+  font-size: 18px;
+  letter-spacing: .01em;
+}
+#download-resume:hover {
+  color: #EFFDBE;
+  background: #33C1B3;
+  text-decoration: none;
+}
+#download-resume:hover > svg {
+
+}
+#download-resume:hover > span {
+  
+}
+
+#download-span{
+  margin-right: 15px;
+}
+
+
 .resume-content {
   right: 15px;
   left: 21%;
@@ -974,7 +1008,7 @@ figure.effect-sadie:hover i {
   padding-bottom: 96px;
 }
 .education {
-  margin-top: 96px;
+  margin-top: 60px;
 }
 .education h4 {
   font-family: 'Montserrat', sans-serif;
@@ -1257,6 +1291,10 @@ div #ora{
     width: 48%;
   }
   /* Resume-page */
+  #download-resume{
+    width: 70%;
+  }
+
   .resume-content {
     margin-top: 120px;
     left: 15px;
@@ -1292,6 +1330,9 @@ div #ora{
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr;
     grid-gap: 14px;
     /* height: 650px; */
+  }
+  #download-resume{
+    width: 80%;
   }
   .copyright {
     display: none;
@@ -1341,6 +1382,7 @@ div #ora{
   .swiper-wrapper {
     left: 72px;
   }
+  
 }
 @media (max-height: 480px) {
   .swiper-slide {
