@@ -151,24 +151,7 @@
               <p> Aenean ut aliquet tellus. Vivamus varius aliquam euismod. Duis pretium, erat ac efficitur lobortis, sem quam dictum augue, in blandit magna diam ut mi. Sed felis tellus, eleifend et augue vel, hendrerit tincidunt mauris. Phasellus tempus sit amet orci eget congue. Fusce sed nisi ipsum.</p>
             </div><!-- /.about-me -->
                       
-            <div class="personal-info">
-              <h4 class="title-section">Personal Information</h4>
-              <ul>
-                <li>
-                  <p> <span> Name</span> - Michael Valeriani </p>
-                </li>
-                <li>
-                  <p> <span> Email </span> - michaelvaleriani@gmail.com</p>
-                </li>
-                <li>
-                  <p> <span> LinkedIn</span> - <a href="https://www.linkedin.com/in/michael-valeriani">linkedin.com/in/michael-valeriani</a> </p>
-                </li>
-                <li>
-                  <p> <span> Github</span> -  <a href="https://github.com/mvaleriani/">github.com/mvaleriani</a>  </p>
-                </li>
-                
-              </ul>
-            </div><!--  /.personal-info -->
+            
             <!-- Skill-bar-section -->
             <div class='skill'>
               <h4 class="title-section">My Skills</h4>
@@ -558,9 +541,6 @@
           </div>
         </div>  
 
-        
-         
-         
         <a id='download-resume' href="https://docs.google.com/document/d/14uZjcexFWNUS-m5L4wYglUNgAi5qTb_REftmdpYTwv8/export?format=pdf">
           <span id="download-span">Download Resume</span>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -577,8 +557,7 @@
           		c11.221,0,16.101,7.529,16.101,17.918C171.044,174.253,166.25,181.946,155.755,181.946z M106.33,135.42H92.964
           		c-3.779,0-5.886,2.493-5.886,6.282v45.317c0,4.04,2.416,6.282,5.663,6.282s5.663-2.242,5.663-6.282v-13.231h8.379
           		c10.341,0,18.875-7.326,18.875-19.107C125.659,143.152,117.425,135.42,106.33,135.42z M106.108,163.158h-7.703v-17.097h7.703
-          		c4.755,0,7.78,3.711,7.78,8.553C113.878,159.447,110.863,163.158,106.108,163.158z" />
-            
+          		c4.755,0,7.78,3.711,7.78,8.553C113.878,159.447,110.863,163.158,106.108,163.158z" />  
           </svg>
         </a>
           
@@ -588,55 +567,137 @@
         <div class="education">
           <div class="row">
             <div class="col-lg-4 col-md-2">
-              <h4>Education</h4>
+              <h4>Work Samples</h4>
             </div>
             <div class="col-lg-8 col-md-10">
-
+        
               <div class="resume-inner">
-                 <div class="resume-row">
-                  <span class="resume-date">2003-2007</span>
-                  <h4 class="resume-study">College of Computing Technology</h4>
-                  <p class="resume-text">Nunc euismod odio nec turpis aliquet dapibus. Nulla maximus diam leo, a feugiat neque laoreet ut. Aenean bibendum tellus id eros hendrerit, a rhoncus augue eleifend. </p>
-                </div>
                 <div class="resume-row">
-                  <span class="resume-date">2007-2008</span>
-                  <h4 class="resume-study">Computer Training School</h4>
-                  <p class="resume-text">Curabitur tempus ultricies nulla id consequat. Proin risus eros, pellentesque ut condimentum at, egestas ut augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="resume-row">
-                  <span class="resume-date">2008-2013</span>
-                  <h4 class="resume-study">Institute of Technology</h4>
-                  <p class="resume-text">Praesent ac massa orci. Vestibulum semper, arcu quis pharetra feugiat, urna mauris rutrum metus, at posuere mi sem ut mauris. In sit amet nulla at urna vehicula.</p>
+                  <h4 class="resume-study">Shallow</h4>
+                  <span class="proj-desc">Machine learning web app designed to detect Deepfake videos (Tensorflow, Keras, and VGG16)</span>
+                  <ul class="feature-list">
+                    <li>
+                      <p class="resume-text">Altered and trained a neural net with 20,000 facial images (real and fake), resulting in a
+                        machine learning model with
+                        an accuracy of over 99.8%.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Improved the accuracy of the model by designing a video processing script which splits the video into frames, selects
+                      those containing human faces, and processes them through an image-classification AI. This reduced the need for input
+                      from the user and eliminated classification anomalies, resulting in even higher accuracy.</p>
+                    </li>
+                  </ul>
                 </div>
 
+                <div class="resume-row">
+                  <h4 class="resume-study">Dialoq</h4>
+                  <span class="proj-desc">A clone of the popular messaging apps Discord and Slack (React/Redux and Ruby on Rails)</span>
+                  <ul class="feature-list">
+                    <li>
+                      <p class="resume-text">Integrated websocket connections with Rails Action Cable for real-time message sending and receiving</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Created responsive UI components with unique animations using Javascript and Lottie, resulting in fast modal
+                      transitions and low loading times.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Implemented Server and Room creation for limitless chatroom customization using AJAX calls and a scalable Rails
+                      backend.</p>
+                    </li>
+                  </ul>
+                </div>
+                
+                <div class="resume-row">
+                  <h4 class="resume-study">Conway’s Game of Voxels</h4>
+                  <span class="proj-desc">Conway’s famous Game of Life automata rendered in 3D isometric space (Javascript and P5.js)</span>
+                  <ul class="feature-list">
+                    <li>
+                      <p class="resume-text">Rendered 3D graphics using WebGL to create a dynamically updated isometric grid in accordance with Conway’s
+                      Game of Life.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Calculated grid state changes based on previous states of the grid using asynchronous Javascript functions.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Created dynamic options for the user including game state manipulation, theme changes, and intuitive controls for
+                      drawing on the canvas.</p>
+                    </li>
+                  </ul>
+                </div>
+        
               </div><!-- /.resume-inner -->
             </div><!-- /.col-lg-8 .col-md-10 -->
           </div><!-- /.row -->
-      </div><!-- /.education -->
+        </div><!-- /.education -->
+
+        <div class="education">
+          <div class="row">
+            <div class="col-lg-4 col-md-2">
+              <h4>Experience</h4>
+            </div>
+            <div class="col-lg-8 col-md-10">
+        
+              <div class="resume-inner">
+                <div class="resume-row">
+                  <span class="resume-date">Aug 2018 - Present</span>
+                  <h4 class="resume-study">Software Development Technical Instructor</h4>
+                  <span class="proj-desc">App Academy</span>
+                  <ul class="feature-list">
+                    <li>
+                      <p class="resume-text">Guided and assisted students in debugging code in JavaScript, Canvas, HTML, CSS, node.js, React/Redux.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Explained algorithms for abstract data types as well as their implementations and applications.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Coached students in developing JavaScript projects and full stack MERN projects, and subsequently conducted code
+                      reviews.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div class="resume-row">
+                  <span class="resume-date">May 2016 - June 2017</span>
+                  <h4 class="resume-study">Data Analyst</h4>
+                  <span class="proj-desc">Deans & Homer</span>
+                  <ul class="feature-list">
+                    <li>
+                      <p class="resume-text">Developed innovative company growth model through calculus-based analysis of all sales and regional branch data.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Organized the company’s raw insurance policy data and determined what business targets needed to be reached
+                      in accordance with the growth expectations of management.</p>
+                    </li>
+                    <li>
+                      <p class="resume-text">Developed a hiring timeframe for each branch of the company and calculated how large a workload each new hire would
+                      need to manage over a period of 3-4 years. This projection model saved management significant time and effort
+                      in both hiring and and training new employees.</p>
+                    </li>
+                  </ul>
+                </div>
+              </div><!-- /.resume-inner -->
+            </div><!-- /.col-lg-8 .col-md-10 -->
+          </div><!-- /.row -->
+        </div>
 
  <!-- experience -->
       <div class="education">
         <div class="row">
           <div class="col-lg-4 col-md-2">
-            <h4>Experience</h4>
+            <h4>Education</h4>
           </div>
           <div class="col-lg-8 col-md-10">
-
             <div class="resume-inner">
               <div class="resume-row">
-                <span class="resume-date">2013-2014</span>
-                <h4 class="resume-study">Junior Web Designer</h4>
-                <p class="resume-text">Nunc euismod odio nec turpis aliquet dapibus. Nulla maximus diam leo, a feugiat neque laoreet ut. Aenean bibendum tellus id eros hendrerit, a rhoncus augue eleifend. </p>
+                <span class="resume-date">Spring 2018</span>
+                <h4 class="resume-study">App Academy</h4>
+                <span class="proj-desc">Immersive software development course with a focus on full stack web development.</span>
+                <p class="resume-text"></p>
               </div>
               <div class="resume-row">
-                <span class="resume-date">2014-2015</span>
-                <h4 class="resume-study">User Experience (UX) Designer</h4>
-                <p class="resume-text">Curabitur tempus ultricies nulla id consequat. Proin risus eros, pellentesque ut condimentum at, egestas ut augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </div>
-              <div class="resume-row">
-                <span class="resume-date">2015-2017</span>
-                <h4 class="resume-study">Web Developer</h4>
-                <p class="resume-text">Praesent ac massa orci. Vestibulum semper, arcu quis pharetra feugiat, urna mauris rutrum metus, at posuere mi sem ut mauris. In sit amet nulla at urna vehicula.</p>
+                <span class="resume-date">Spring 2015</span>
+                <h4 class="resume-study">Cuesta College</h4>
+                <span class="proj-desc">Courses in Computer Science, Deductive Logic, multiple forms of Calculus and Linear Algebra.</span>
+                <p class="resume-text"></p>
               </div>
             </div><!-- /.resume-inner -->
 
@@ -660,15 +721,26 @@
                 <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth.Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life.</p>
               </div><!-- /.contact-text -->
                       
+             
               <div class="personal-info">
                 <h4 class="title-section">Get In Touch</h4>
                  <ul>
-                   <li>
-                     <p> <span> E-mail</span> - michaelvaleriani@gmail.com </p>
-                   </li>
-                    <li>
-                      <p> <span> Location</span> - Oakland, CA</p>
-                    </li>
+                  <li>
+                    <p> <span> Name</span> - Michael Valeriani </p>
+                  </li>
+                  <li>
+                    <p> <span> E-mail</span> - michaelvaleriani@gmail.com </p>
+                  </li>
+                  <li>
+                    <p> <span> Location</span> - Oakland, CA</p>
+                  </li>
+                  <li>
+                    <p> <span> LinkedIn</span> - <a href="https://www.linkedin.com/in/michael-valeriani">linkedin.com/in/michael-valeriani</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p> <span> Github</span> - <a href="https://github.com/mvaleriani/">github.com/mvaleriani</a> </p>
+                  </li>
                 </ul>
               </div><!-- /.personal-info -->
 

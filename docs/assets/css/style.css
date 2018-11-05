@@ -984,7 +984,7 @@ figure.effect-sadie:hover i {
 }
 #download-resume:hover {
   color: #EFFDBE;
-  background: #33C1B3;
+  background: rgba(51, 193, 179, 0.7);
   text-decoration: none;
 }
 #download-resume:hover > svg {
@@ -1062,6 +1062,15 @@ figure.effect-sadie:hover i {
   padding: 1px 15px;
   border-radius: 100px;
 }
+
+.feature-list{
+  list-style-type: circle;
+  margin-left: 2em;
+}
+.proj-desc{
+  font-style: italic;
+}
+
 /*--- 10. CONTACT SECTION ---*/
 #contact.panel {
   width: 70%;

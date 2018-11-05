@@ -22,10 +22,10 @@ if (empty($_POST["message"])) {
 } else {
     $message = $_POST["message"];
 }
+// echo "in PHP";
 
-
-$EmailTo = "your@email.domain.com"; //change email 
-$Subject = "New Message Received";
+$EmailTo = "michaelvaleriani@gmail.com"; 
+$Subject = "Message From Personal Site";
 
 // prepare email body text
 $Body = "";
