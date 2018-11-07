@@ -33,32 +33,31 @@ function submitForm(){
     var email = $("#email").val();
     var message = $("#message").val();
 
-    var nodemailer = require('nodemailer');
-    debugger;
-    var transporter = nodemailer.createTransport({
-        service: 'gmail',
-        auth: {
-            user: 'youremail@gmail.com',
-            pass: 'yourpassword'
-        }
-    });
+    // var nodemailer = require('nodemailer');
+    // var transporter = nodemailer.createTransport({
+    //     service: 'gmail',
+    //     auth: {
+    //         user: 'youremail@gmail.com',
+    //         pass: 'yourpassword'
+    //     }
+    // });
 
-    var mailOptions = {
-        from: email,
-        to: 'michaelvaleriani@gmail.com',
-        subject: `Email From Personal Site: ${name}`,
-        text: message
-    };
-    console.log(mailOptions);
+    // var mailOptions = {
+    //     from: email,
+    //     to: 'michaelvaleriani@gmail.com',
+    //     subject: `Email From Personal Site: ${name}`,
+    //     text: message
+    // };
+    // console.log(mailOptions);
     
 
-    transporter.sendMail(mailOptions, function (error, info) {
-        if (error) {
-            console.log(error);
-        } else {
-            console.log('Email sent: ' + info.response);
-        }
-    });
+    // transporter.sendMail(mailOptions, function (error, info) {
+    //     if (error) {
+    //         console.log(error);
+    //     } else {
+    //         console.log('Email sent: ' + info.response);
+    //     }
+    // });
 
     // debugger
 
