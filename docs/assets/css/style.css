@@ -368,6 +368,21 @@ ul {
   color: #70C1B3;
   position: relative;
 }
+
+.mobile-nav-bg{
+  position: fixed;
+  left: 25px;
+  top: 20px;
+  width: 40px;
+  height: 55px;
+  border-radius: 5px;
+  z-index: -1;
+  background-color: rgba(238, 255, 191);
+
+  -moz-box-shadow: 0 0 1px #888;
+  -webkit-box-shadow: 0 0 1px#888;
+  box-shadow: 0 0 1px #888;
+}
 .bg-nav {
   width: 100%;
   height: 100%;
@@ -668,7 +683,7 @@ img.mobile-profile-img {
   text-transform: capitalize;
 }
 .about-me h4 {
-  margin-top: 96px;
+  margin-top: 48px;
   font-weight: 600;
 }
 .about-me p {
@@ -801,20 +816,81 @@ img.mobile-profile-img {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  color: #333;
+  /* color: #333; */
 }
 .services p {
   margin-top: 24px;
   margin-bottom: 48px;
 }
 .card {
-  border-radius: 0;
-  border: 1px solid #70C1B3;
+  border: none;
+  border-radius: 7px;
+  overflow: hidden;
+  background: rgba(212, 233, 226, 0.577);
+  /* border: 1px solid #70C1B3; */
+}
+.service-svg{
+  height: 122px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#stack-top{
+  transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#stack-bottom{
+  transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+#mug{
+  z-index: 2;
+}
+#pencil{
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  z-index: 1;
+}
+#brush{
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-delay: .1s;
+  z-index: 1;
+}
+#ruler{
+  transition: all .2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition-delay: .2s;
+  z-index: 1;
+}
+
+.service-svg:hover .design-tool{
+  transform: translateY(-20%);
+}
+
+.svg-divs{
+  transform-origin: center center;
+  transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.service-svg:hover #stack-top{
+  transform: translateY(-10%)
+}
+.service-svg:hover #stack-bottom{
+  transform: translateY(10%)
+}
+.service-svg:hover .svg-divs{
+  transform: scale(1.1);
+}
+
+.card-title{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 0;
 }
 .card-img-top {
   width: 100%;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+.card-body{
+  background: #758A8D;
 }
 .card > i {
   text-align: center;
@@ -822,7 +898,7 @@ img.mobile-profile-img {
   padding-top: 12px;
   padding-bottom: 12px;
   font-size: 96px;
-  border-bottom: 1px solid #70C1B3;
+  /* border-bottom: 1px solid #70C1B3; */
 }
 /*--- 07. PORTFOLIO SECTION ---*/
 #portfolio p {
@@ -1269,7 +1345,7 @@ div #ora{
   }
   /* About-Page */
   .about-me {
-    margin-top: 96px;
+    margin-top: 48px;
   }
   .about-me h4 {
     margin-top: 48px;

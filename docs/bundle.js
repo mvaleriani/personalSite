@@ -20252,7 +20252,11 @@ var Navigation = function (_React$Component) {
                 _react2.default.createElement(
                     "div",
                     { className: "mobile-nav" },
-                    _react2.default.createElement("i", { className: "fa ion-navicon", "aria-hidden": "true" }),
+                    _react2.default.createElement(
+                        "i",
+                        { className: "fa ion-navicon", "aria-hidden": "true" },
+                        _react2.default.createElement("div", { className: "mobile-nav-bg" })
+                    ),
                     _react2.default.createElement(
                         "span",
                         null,

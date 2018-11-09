@@ -10,7 +10,9 @@ class Navigation extends React.Component{
         return(
             <div className="col-lg-2 pd-left">
                 <div className="mobile-nav">
-                    <i className="fa ion-navicon" aria-hidden="true"></i>
+                    <i className="fa ion-navicon" aria-hidden="true">
+                        <div className="mobile-nav-bg"></div>
+                    </i>
                     <span>Menu</span>
                 </div>
                 <nav className="nav-menu">
