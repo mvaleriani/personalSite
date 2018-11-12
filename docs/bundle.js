@@ -20424,17 +20424,7 @@ var AboutPanel = function (_React$Component) {
             return _react2.default.createElement(
                 'div',
                 { id: 'react-about-panel' },
-                _react2.default.createElement(
-                    'div',
-                    { id: 'particles-js' },
-                    _react2.default.createElement(
-                        'div',
-                        { style: { width: '50%', height: 'fit-content', marginTop: '50px' } },
-                        ' ',
-                        _react2.default.createElement('img', { style: { width: '100%', borderRadius: '3px' }, src: './assets/images/about/mobile-profile.jpg', alt: '' }),
-                        ' '
-                    )
-                ),
+                _react2.default.createElement('div', { id: 'particles-js' }),
                 _react2.default.createElement('script', { src: 'particles.js' })
             );
         }
